@@ -1,0 +1,62 @@
+
+@media (min-width: 850px){
+    .contacto{
+        gap: 0;
+    }
+    .wrap{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .links{
+        margin-left: 0px;
+    }
+}
+.contacto{
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    align-items: start;
+    background-color: #EAF2FD;
+    padding: 4vw 10vw;
+}
+.wrap{
+    gap: 6vw;
+}
+.links{
+    margin-top: 1vw;
+    display: grid;
+    gap: 1.2vw;
+    font-size: 1vw;
+}
+
+.div-form{
+    margin-top: 1vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.div-form h4{
+    text-align: left;
+    font-weight: 700;
+    font-size: 1vw;
+    margin-block-start: 0em;
+    margin-block-end: 0.5vw;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.input{
+    border-radius: 0;
+}
+
+.login-form {
+    min-width: 400px;
+  }
+:where(.css-dev-only-do-not-override-ed5zg0).ant-btn.ant-btn-lg{
+    border-radius: 0;
+    width: 100%;
+}
+:where(.css-dev-only-do-not-override-ed5zg0).ant-form-item{
+    margin-bottom: 0.7vw;
+}

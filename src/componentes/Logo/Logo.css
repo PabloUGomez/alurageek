@@ -1,0 +1,12 @@
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    padding-right: 6px;
+    height: 2vw;
+}
+.logo h3{
+    font-size: 1.3vw;
+}

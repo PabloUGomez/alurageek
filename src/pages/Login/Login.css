@@ -1,6 +1,7 @@
 .div-form-login{
     padding: 4vw 0;
     display: grid;
+    background-color: #E5E5E5;
     justify-content: center;
     align-items: center;
 }
@@ -9,13 +10,18 @@
     font-weight: 700;
     font-size: 1.2vw;
 }
-
+.textfield{
+  max-height: 5vw;
+  height: 7vw;
+}
 .input-login{
     border-radius: 0;
-    height: 3.4vw;
-}
-.login-form-login{
-    min-width: 30vw;
+    max-height: 4vw;
+} 
+
+.login-form{
+    width: 100%;
+    min-width: 150px;
   }
 .login-form-forgot {
     float: right;
@@ -26,6 +32,7 @@
 .login-form-button:where(.css-dev-only-do-not-override-ed5zg0).ant-btn.ant-btn-lg{
     border-radius: 0;
     width: 100%;
+    font-size: 1.2vw;
     height: 3.4vw;
 }
 

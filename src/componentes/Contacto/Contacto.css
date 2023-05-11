@@ -1,5 +1,12 @@
-
+.div-form-contacto{
+    margin-top: 1vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-width: 75px;
+}
 @media (min-width: 850px){
+    
     .contacto{
         gap: 0;
     }
@@ -30,13 +37,8 @@
     font-size: 1vw;
 }
 
-.div-form{
-    margin-top: 1vw;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-.div-form h4{
+
+.div-form-contacto h4{
     text-align: left;
     font-weight: 700;
     font-size: 1vw;
@@ -50,8 +52,8 @@
     border-radius: 0;
 }
 
-.login-form {
-    min-width: 400px;
+.contacto-form {
+    min-width: 75px;
   }
 :where(.css-dev-only-do-not-override-ed5zg0).ant-btn.ant-btn-lg{
     border-radius: 0;

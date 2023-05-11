@@ -11,7 +11,7 @@ const Login = () => {
         <Form
             name="normal_login"
             size='large'
-            className="login-form-login"
+            className="login-form"
             initialValues={{ remember: true }}
         >
 

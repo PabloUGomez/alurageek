@@ -1,0 +1,76 @@
+.categoria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3vw 8vw;
+}
+
+.titulo-categoria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    height: 2vw;
+    min-height: 24px;
+    font-size: 100%;
+}
+.titulo-categoria a{
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: 700
+}
+.lista-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(130px,1fr));
+    grid-template-rows: 1fr 0px;
+    grid-auto-rows: 0px;
+    width: 100%;
+    position: relative;
+    column-gap: 16px;
+    overflow: hidden;
+}
+.div-card{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.card{
+    width: 100%;
+    min-width: 130px;
+    height: 100%;
+    border-radius: 0;
+}
+
+.card:where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-cover img{
+    border-radius: 0;
+}
+.card:where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-meta-detail >div:not(:last-child){
+    margin-bottom: 0;
+}
+.card:where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-body{
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+}
+.card:where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-meta-title{
+    color: #464646;
+    font-weight: 500;
+    height: 50%;
+    font-size: 100%;
+}
+.card:where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-meta-description{
+    color: black;
+    height: 50%;
+    font-size: 100%;
+    font-weight: 700;
+}
+.card:where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-actions>li:not(:last-child){
+    width: 100%;
+}
+:where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-actions>li >span{
+    width: 100%;
+}
+
+.icono-carrito{
+    color: #2A7AE4;
+}

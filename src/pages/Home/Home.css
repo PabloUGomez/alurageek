@@ -1,0 +1,47 @@
+.banner{
+    height: 24.6vw;
+    min-height: 200px;
+    width: 100%;
+    background-image: url("../../../public/imagenes/banner.jpg");
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    color: white;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+}
+
+.banner span{
+    position: relative;
+    min-width: 90vw;
+    left: 0vw;
+    bottom: 2vw;
+}
+.banner h2, .banner h3, .banner button{ 
+    min-height: 16px;
+    font-weight: 700;
+    margin-bottom: 0.4vw;
+    color: white;
+}
+.banner h2{
+    height: 5vw;
+    font-size: 5vw;
+}
+.banner h3{
+    height: 2vw;
+    font-size: 2vw;
+}
+.banner button{
+    background-color: #2A7AE4;
+    width: 10vw;
+    min-width: 86px;
+    height: 3vw;
+    border: none;
+    font-weight:300;
+    margin-top: 10px;
+    font-size: 1.5vw;
+}
+
+@media (min-height: "500px"){
+}

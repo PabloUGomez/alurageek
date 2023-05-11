@@ -1,12 +1,13 @@
 .logo{
     display: flex;
     align-items: center;
+    justify-content: left;
+    font-size: 2vh;
+    min-height: 28px;
+    height: 2vw;
+    gap: 0.1vw;
 }
 
 .logo img{
-    padding-right: 6px;
-    height: 2vw;
-}
-.logo h3{
-    font-size: 1.3vw;
+    height: 100%;
 }

@@ -1,7 +1,7 @@
 import "./Contacto.css"
 import Logo from "../Logo/Logo";
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
-import { Button, Checkbox, Form, Input,Space } from 'antd';
+import { Button, Form, Input } from 'antd';
 
 const Contacto = () => {
     return (
@@ -18,7 +18,7 @@ const Contacto = () => {
                     <a>Anúncie aquí</a>
                 </div>
             </div>
-        <div className='div-form'>
+        <div className='div-form-contacto'>
         <h4>Hable con nosotros</h4>
         <Form
             name="normal_contacto"

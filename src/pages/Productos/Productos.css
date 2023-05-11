@@ -1,0 +1,21 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3vw 8vw;
+    background-color: #E5E5E5;
+}
+.lista-todos-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(130px,1fr));
+    grid-template-rows: auto;
+    width: 100%;
+    column-gap: 16px;
+}
+.button-agregar-producto{
+    background-color: #2A7AE4;
+    padding: 0.7vw 1.2vw;
+    align-items: center;
+    color: white;
+    border: none;
+}

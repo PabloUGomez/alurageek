@@ -5,7 +5,6 @@ import {Link, useLocation, useParams} from "react-router-dom";
 
 const Header = () => {
     const url = useLocation();
-    console.log(url.pathname);
     return (
         <>
         <div className="header">

@@ -7,7 +7,8 @@ import Header from './componentes/Header/Header';
 import Footer from './componentes/Footer/Footer';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login.jsx';
-import Productos from "./pages/Productos/Producto"
+import Productos from "./pages/Productos/Producto";
+import AgregarProducto from "./pages/AgregarProducto/AgregarPorducto";
 
 function App() {
 
@@ -181,18 +182,18 @@ function App() {
               categorias={categorias}
               productos={productos}
               />
-          }
-          />
+          }/>
           <Route path='/Productos' element={
             <Productos
             productos={productos}
             />
-          }
-          />
+          }/>
           <Route path='/Login' element={
             <Login/>
-          }
-          />
+          }/>
+          <Route path='/AgregarProducto' element={
+            <AgregarProducto categorias={categorias}/>
+          }/>
         </Routes>
         <Footer></Footer>
       </Router>

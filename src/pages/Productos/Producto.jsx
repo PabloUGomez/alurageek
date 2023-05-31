@@ -2,6 +2,7 @@ import React from 'react';
 import "../../componentes/Categoria/Categoria.css"
 import "./Productos.css"
 import { Card } from 'antd';
+import { Link } from 'react-router-dom';
 
 const { Meta } = Card;
 
@@ -14,7 +15,7 @@ const Productos = (props) => {
         <div className='productos'>
             <span className='titulo-categoria'>
                 <h3>Todos los productos</h3>
-                <button className='button-agregar-producto'>Agregar producto</button>
+                <Link to="/AgregarProducto"><button className='button-agregar-producto'>Agregar producto</button></Link>
             </span>
             <div className='lista-todos-productos'>
                 {productos.map ((producto)=><div key={producto.id} className='div-card'><Card

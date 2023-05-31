@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
 import { v4 as uuid } from 'uuid';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, useParams} from 'react-router-dom'
 import './App.css';
 import Header from './componentes/Header/Header';
 import Footer from './componentes/Footer/Footer';
@@ -176,14 +176,14 @@ function App() {
     <Router>
         <Header></Header>  
         <Routes>
-          <Route path='/Home' element={
+          <Route path='/' element={
               <Home
               categorias={categorias}
               productos={productos}
               />
           }
           />
-          <Route path='/' element={
+          <Route path='/Productos' element={
             <Productos
             productos={productos}
             />

@@ -9,8 +9,6 @@ const Home = (props) => {
     return (
         <>
             <div className='banner'>
-                {//<img src="imagenes/banner.jpg" alt="Banner" />
-}
                 <span>
                     <h2>Febrero Promocional</h2>
                     <h3>Productos selecionados con 33% de descuento</h3>

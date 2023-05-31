@@ -3,9 +3,20 @@
     height: 7vw;
     display: flex;
     min-height: 72px;
-    justify-content: left;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    min-width: 360px;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
     align-items: center;
 }
+.header div{
+    display: flex;
+    width: 100%;
+}
 
+.button-header{
+    background-color: white;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: 1vw 4vw;
+}

@@ -19,3 +19,9 @@
     color: white;
     border: none;
 }
+:where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-actions>li >span a:not(.ant-card-btn), :where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-actions>li >span >.anticon{
+    padding-left: 5px;
+}
+:where(.css-dev-only-do-not-override-ed5zg0).ant-card .ant-card-actions>li:not(:last-child){
+    border-inline-end: none;
+}

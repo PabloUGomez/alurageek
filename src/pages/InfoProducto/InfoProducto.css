@@ -1,0 +1,22 @@
+.div-info-producto{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 4vw 0;
+    background-color: #E5E5E5;
+}
+.div-info-producto img{
+    width: 35vw;
+    margin-right: 2vw;
+}
+.div-info-producto h2{
+    font-size: 2vw;
+}
+.div-info-producto h4{
+    font-size: 1.3vw;
+}
+.div-info-producto h5{
+    font-weight: 300;
+    font-size: 1.1vw;
+    max-width: 50vw;
+}

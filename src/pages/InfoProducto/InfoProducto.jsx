@@ -17,7 +17,7 @@ const InfoProducto = (props) => {
             </div>
         </div>
         <Categoria
-            datos={"Productos Similares"}
+            datos={{nombre:"Productos Similares"}}
             productos={productos}
         />
         </>

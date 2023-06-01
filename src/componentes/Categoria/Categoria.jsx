@@ -13,7 +13,7 @@ const Categoria = (props) => {
         <>
         <div className='categoria'>
             <span className='titulo-categoria'>
-                <h3>{datos}</h3>
+                <h3>{datos.nombre}</h3>
                 <Link to="/Productos">
                     <h4 >Ver todo </h4>
                     <ArrowRightOutlined style={{color: "#2A7AE4", height: "100%"}}/>

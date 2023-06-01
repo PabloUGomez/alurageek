@@ -8,13 +8,12 @@ const { Meta } = Card;
 
 const Categoria = (props) => {
 
-    const {productos}= props
-    const {id,nombre}= props.datos
+    const {productos,datos}= props
     return ( 
         <>
         <div className='categoria'>
             <span className='titulo-categoria'>
-                <h3>{nombre}</h3>
+                <h3>{datos}</h3>
                 <Link to="/Productos">
                     <h4 >Ver todo </h4>
                     <ArrowRightOutlined style={{color: "#2A7AE4", height: "100%"}}/>
@@ -28,7 +27,7 @@ const Categoria = (props) => {
                     cover={<img alt="example" src={producto.urlImagen}/>}
                     actions={[<a style={{fontSize:"95%"}} >Informacion</a>,<ShoppingCartOutlined style={{fontSize:"100%"}}/>]}
                 >
-                    <Meta title="Europe Street beat" description="Europe Street beat"/>
+                    <Meta title={producto.nombre} description={`$ ${producto.precio}`}/>
                 </Card></div>)
                 }
             </div>

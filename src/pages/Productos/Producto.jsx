@@ -2,13 +2,13 @@ import React from 'react';
 import "../../componentes/Categoria/Categoria.css"
 import "./Productos.css"
 import { Card } from 'antd';
-import { Link } from 'react-router-dom';
-
+import { ShoppingCartOutlined } from '@ant-design/icons';
+import { Link} from 'react-router-dom';
 const { Meta } = Card;
 
 const Productos = (props) => {
 
-    const {productos} = props
+    const {productos,manejarInformacion} = props
 
     return (
         <>
@@ -18,14 +18,21 @@ const Productos = (props) => {
                 <Link to="/AgregarProducto"><button className='button-agregar-producto'>Agregar producto</button></Link>
             </span>
             <div className='lista-todos-productos'>
-                {productos.map ((producto)=><div key={producto.id} className='div-card'><Card
-                    hoverable
-                    key={producto.id} 
-                    className='card'
-                    cover={<img alt="example" src={producto.urlImagen}/>}
-                >
+                {productos.map ((producto)=>
+                <div key={producto.id} className='div-card'>
+                    <Card
+                        hoverable
+                        key={producto.id} 
+                        className='card'
+                        cover={<img alt="example" src={producto.urlImagen}/>}
+                        actions={[<Link to={`/InfoProducto`} onClick={()=>{
+                            manejarInformacion(producto)
+                        }}
+                        >Informacion</Link>,<ShoppingCartOutlined style={{fontSize:"100%"}}/>]}
+                    >
                     <Meta title={producto.nombre} description={`$ ${producto.precio}`}/>
-                </Card></div>)
+                    </Card>
+                </div>)
                 }
             </div>
         </div>

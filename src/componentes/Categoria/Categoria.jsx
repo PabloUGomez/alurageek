@@ -8,7 +8,7 @@ const { Meta } = Card;
 
 const Categoria = (props) => {
 
-    const {productos,datos}= props
+    const {productos,datos,manejarInformacion}= props
     return ( 
         <>
         <div className='categoria'>
@@ -25,7 +25,10 @@ const Categoria = (props) => {
                     key={producto.id} 
                     className='card'
                     cover={<img alt="example" src={producto.urlImagen}/>}
-                    actions={[<a style={{fontSize:"95%"}} >Informacion</a>,<ShoppingCartOutlined style={{fontSize:"100%"}}/>]}
+                    actions={[<Link to={`/InfoProducto`} onClick={()=>{
+                        manejarInformacion(producto)
+                    }}
+                    >Informacion</Link>,<ShoppingCartOutlined style={{fontSize:"100%"}}/>]}
                 >
                     <Meta title={producto.nombre} description={`$ ${producto.precio}`}/>
                 </Card></div>)

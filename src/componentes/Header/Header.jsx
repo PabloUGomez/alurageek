@@ -1,7 +1,8 @@
 import "./Header.css"
 import Logo from "../Logo/Logo";
 import Buscador from "../Buscador/Buscador"
-import {Link, useLocation, useParams} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
+import { Button } from "antd";
 
 const Header = () => {
     const url = useLocation();
@@ -12,8 +13,8 @@ const Header = () => {
                 <Logo></Logo>
                 <Buscador></Buscador>
             </div>  
-            {url.pathname === "/"  &&<Link to="/Login"><button className="button-header">Login</button></Link>}
-            {url.pathname === "/AgregarProducto" &&<Link to="/MenuAdministrador"><button className="button-header">Menu Administrador</button></Link>}
+            {url.pathname === "/"  &&<Link to="/Login"><Button className="button-header">Login</Button></Link>}
+            {url.pathname === "/AgregarProducto" &&<Link to="/MenuAdministrador"><Button className="button-header">Menu Administrador</Button></Link>}
         </div>
         </> 
     )

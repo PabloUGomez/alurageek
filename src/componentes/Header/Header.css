@@ -12,11 +12,12 @@
 .header div{
     display: flex;
     width: 100%;
-}
+} 
 
 .button-header{
     background-color: white;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
-    padding: 1vw 4vw;
+    padding: 0vw 4vw;
+    border-radius: 0;
 }

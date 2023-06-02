@@ -4,7 +4,7 @@ import Categoria from '../../componentes/Categoria/Categoria';
 
 const Home = (props) => {
 
-    const {categorias,productos} = props
+    const {categorias,productos, manejarInformacion} = props
 
     return (
         <>
@@ -18,6 +18,7 @@ const Home = (props) => {
             {categorias.map((categoria)=> <Categoria
                 datos={categoria}
                 key={categoria.id} 
+                manejarInformacion={manejarInformacion}
                 productos={productos.filter(producto => producto.categoria === categoria.nombre)}
             />)
             }

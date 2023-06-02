@@ -1,15 +1,15 @@
 import React from 'react';
 import {useState} from 'react';
 import { v4 as uuid } from 'uuid';
-import {BrowserRouter as Router, Routes, Route, useParams} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css';
-import Header from './componentes/Header/Header';
-import Footer from './componentes/Footer/Footer';
-import Home from './pages/Home/Home';
+import Header from './componentes/Header/Header.jsx';
+import Footer from './componentes/Footer/Footer.jsx';
+import Home from './pages/Home/Home.jsx';
 import Login from './pages/Login/Login.jsx';
-import Productos from "./pages/Productos/Producto";
-import AgregarProducto from "./pages/AgregarProducto/AgregarPorducto";
-import InfoProducto from './pages/InfoProducto/InfoProducto';
+import Productos from "./pages/Productos/Producto.jsx";
+import AgregarProducto from "./pages/AgregarProducto/AgregarPorducto.jsx";
+import InfoProducto from './pages/InfoProducto/InfoProducto.jsx';
 
 function App() {
 
@@ -192,6 +192,7 @@ function App() {
           <Route path='/' element={
               <Home
               categorias={categorias}
+              manejarInformacion={manejarInformacion}
               productos={productos}
               />
           }/>

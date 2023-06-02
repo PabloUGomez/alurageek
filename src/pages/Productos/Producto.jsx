@@ -25,7 +25,7 @@ const Productos = (props) => {
                         key={producto.id} 
                         className='card'
                         cover={<img alt="example" src={producto.urlImagen}/>}
-                        actions={[<Link to={`/InfoProducto`} onClick={()=>{
+                        actions={[<Link to="/InfoProducto" onClick={()=>{
                             manejarInformacion(producto)
                         }}
                         >Informacion</Link>,<ShoppingCartOutlined style={{fontSize:"100%"}}/>]}

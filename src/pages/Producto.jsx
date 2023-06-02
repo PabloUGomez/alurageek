@@ -1,6 +1,5 @@
 import React from 'react';
-import "../../componentes/Categoria/Categoria.css"
-import "./Productos.css"
+import "../assets/css/pages/Productos.css"
 import { Card } from 'antd';
 import { ShoppingCartOutlined } from '@ant-design/icons';
 import { Link} from 'react-router-dom';

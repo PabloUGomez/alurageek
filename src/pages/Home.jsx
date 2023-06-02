@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Home.css"
-import Categoria from '../../componentes/Categoria/Categoria';
+import "../assets/css/pages/Home.css";
+import Categoria from '../assets/componentes/Categoria';
 
 const Home = (props) => {
 

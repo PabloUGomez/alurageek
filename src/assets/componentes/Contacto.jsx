@@ -1,5 +1,5 @@
-import "./Contacto.css"
-import Logo from "../Logo/Logo";
+import "../css/componentes/Contacto.css"
+import Logo from "./Logo";
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Form, Input } from 'antd';
 

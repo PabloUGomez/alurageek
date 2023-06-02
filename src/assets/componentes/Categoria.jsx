@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Categoria.css"
+import "../css/componentes/Categoria.css"
 import { Link } from 'react-router-dom';
 import { Card } from 'antd';
 import { ArrowRightOutlined,ShoppingCartOutlined } from '@ant-design/icons';

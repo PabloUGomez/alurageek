@@ -1,5 +1,5 @@
-import "./Footer.css"
-import Contacto from "../Contacto/Contacto";
+import "../css/componentes/Footer.css"
+import Contacto from "./Contacto";
 
 const Footer = () => {
     return (

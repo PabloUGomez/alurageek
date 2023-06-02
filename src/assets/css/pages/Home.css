@@ -2,7 +2,7 @@
     height: 24.6vw;
     min-height: 200px;
     width: 100%;
-    background-image: url("../../../public/imagenes/banner.jpg");
+    background-image: url("../../../../public/imagenes/banner.jpg");
     background-position: center;
     background-size:cover;
     position: relative;

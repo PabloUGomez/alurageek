@@ -1,6 +1,6 @@
 import React from 'react';
-import "./InfoProducto.css"
-import Categoria from '../../componentes/Categoria/Categoria';
+import "../assets/css/pages/InfoProducto.css"
+import Categoria from '../assets/componentes/Categoria';
 const InfoProducto = (props) => {
 
     const {nombre,precio,urlImagen,descripcion} = props.infoProducto

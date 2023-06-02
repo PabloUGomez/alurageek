@@ -1,4 +1,4 @@
-import "./Logo.css"
+import "../css/componentes/Logo.css"
 import {Link} from "react-router-dom";
 
 const Logo = () => {

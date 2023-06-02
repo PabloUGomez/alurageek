@@ -1,6 +1,6 @@
-import "./Header.css"
-import Logo from "../Logo/Logo";
-import Buscador from "../Buscador/Buscador"
+import "../css/componentes/Header.css"
+import Logo from "./Logo";
+import Buscador from "./Buscador"
 import {Link, useLocation} from "react-router-dom";
 import { Button } from "antd";
 

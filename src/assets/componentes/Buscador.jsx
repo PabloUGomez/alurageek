@@ -1,4 +1,4 @@
-import "./Buscador.css"
+import "../css/componentes/Buscador.css"
 import { AudioOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
 

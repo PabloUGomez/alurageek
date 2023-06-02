@@ -3,13 +3,13 @@ import {useState} from 'react';
 import { v4 as uuid } from 'uuid';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css';
-import Header from './componentes/Header/Header.jsx';
-import Footer from './componentes/Footer/Footer.jsx';
-import Home from './pages/Home/Home.jsx';
-import Login from './pages/Login/Login.jsx';
-import Productos from "./pages/Productos/Producto.jsx";
-import AgregarProducto from "./pages/AgregarProducto/AgregarPorducto.jsx";
-import InfoProducto from './pages/InfoProducto/InfoProducto.jsx';
+import Header from './assets/componentes/Header.jsx';
+import Footer from './assets/componentes/Footer.jsx';
+import Home from './pages/Home.jsx';
+import Login from './pages/Login.jsx';
+import Productos from "./pages/Producto.jsx";
+import AgregarProducto from "./pages/AgregarPorducto.jsx";
+import InfoProducto from './pages/InfoProducto.jsx';
 
 function App() {
 

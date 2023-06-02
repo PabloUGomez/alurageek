@@ -1,5 +1,5 @@
 import React from 'react';
-import "./AgregarProducto.css"
+import "../assets/css/pages/AgregarProducto.css"
 import { Button, Form, Input,Select } from 'antd';
 
 const AgregarProducto = ({categorias}) =>{
